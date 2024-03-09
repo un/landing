@@ -4,7 +4,7 @@
   "description": "Landing and marketing pages for the Unproprietary Corporation organization",
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "dotenv -e .env.local -- turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "find . -name node_modules -o -name .nuxt -o -name .nitro -o -name .output -o -name .turbo -o -name dist -type d -prune | xargs rm -rf"
@@ -13,16 +13,16 @@
   "license": "AGPLv3",
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
-    "@types/node": "^20.11.19",
-    "dotenv-cli": "^7.3.0",
+    "@types/node": "^20.11.25",
+    "@u22n/tsconfig": "^0.0.1",
+    "dotenv-cli": "^7.4.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "typescript": "^5.3.3",
-    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "turbo": "latest",
-    "@u22n/tsconfig": "^0.0.1"
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "turbo": "^1.12.5",
+    "typescript": "^5.4.2"
   },
   "packageManager": "pnpm@8.6.10"
 }
