@@ -57,8 +57,8 @@
     <template #logo>
       <span class="font-display"> UnInbox </span>
       <UBadge
-        label="Coming Soon"
-        variant="subtle"
+        label="Beta Live"
+        color="yellow"
         class="mb-0.5" />
     </template>
 
@@ -84,11 +84,16 @@
         class="hidden lg:flex" />
 
       <UButton
-        label="Join the waitlist"
+        label="Join Now!"
         color="black"
         icon="i-heroicons-rocket-launch"
         class="hidden lg:flex"
-        @click="$emit('openWaitlistModal')" />
+        @click="
+          navigateTo('https://app.uninbox.com', {
+            external: true,
+            open: { target: '_blank' }
+          })
+        " />
     </template>
 
     <template #panel>
@@ -116,11 +121,16 @@
         class="hidden lg:flex" />
 
       <UButton
-        label="Join the waitlist"
+        label="Join Now!"
         color="black"
         icon="i-heroicons-rocket-launch"
         class="hidden lg:flex"
-        @click="$emit('openWaitlistModal')" />
+        @click="
+          navigateTo('https://app.uninbox.com', {
+            external: true,
+            open: { target: '_blank' }
+          })
+        " />
     </template>
   </UHeader>
 </template>

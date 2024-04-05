@@ -17,10 +17,14 @@
 
   const heroLinks = [
     {
-      label: 'Join the waitlist',
+      label: 'Experience the new way to email',
       icon: 'i-heroicons-rocket-launch',
       size: 'xl',
-      click: () => emit('openWaitlistModal')
+      click: () =>
+        navigateTo('https://app.uninbox.com', {
+          external: true,
+          open: { target: '_blank' }
+        })
     },
     {
       label: 'Star us on GitHub',
@@ -187,17 +191,20 @@
     align: 'left' | 'center' | 'right';
     card: boolean;
   }> = {
-    title: 'Launching Soon 🚀',
-    description:
-      'Join the waitlist to be the first to know when we launch. Currently scheduled for early March 2024.',
+    title: 'Experience the new way to email',
+    description: 'Open for registration now!',
 
     links: [
       {
-        label: 'Join the waitlist',
+        label: 'Join the beta now',
         color: 'black',
         size: 'xl',
         trailingIcon: 'i-heroicons-rocket-launch',
-        click: () => emit('openWaitlistModal')
+        click: () =>
+          navigateTo('https://app.uninbox.com', {
+            external: true,
+            open: { target: '_blank' }
+          })
       }
     ]
   };
@@ -268,11 +275,6 @@
         'Yes, you get a personal email address with UnInbox, and a dedicated forwarding address. Any emails sent to your forwarding address will appear in your UnInbox. You can also forward all emails for a custom domain to your UnInbox organization.'
     },
     {
-      label: 'Will you do what Skiff did and abandon us?',
-      content:
-        "No, we do not plan on getting acquired, that's not our end goal. If we were ever to shut down, our code will remain freely available for you to self-host and we will take some steps to ensure that the online platform will remain active."
-    },
-    {
       label: 'Do you plan on raising funds or taking investments?',
       content:
         'Yes, in order to bring our vision to life, we will need significant time and resources. Crowdfunding, donations and bootstrapping were deeply considered, but deemed not viable enough for our vision. Any potential investor will be carefully vetted by our founders - and by peers in the open source community - to ensure they align with our open source principles, and it will be made abundantly clear that an acquisition is not in our future. Special agreements will be put into place to ensure the longevity of UnInbox if we were ever to halt doing business.'
@@ -309,12 +311,12 @@
       <div class="flex flex-col gap-2">
         <img
           src="/images/screenshot.png?url"
-          class="ring-gray-300 dark:ring-gray-700 w-full rounded-md shadow-xl ring-1" />
-        <span class="text-gray-500 text-sm">
+          class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
+        <span class="text-sm text-gray-500">
           This is a development screenshot
         </span>
         <NuxtLink
-          class="text-gray-500 text-sm"
+          class="text-sm text-gray-500"
           to="https://youtu.be/AWQdAKmNrR4"
           target="_blank">
           Click here to see a video
@@ -362,8 +364,8 @@
       headline="Planned Features"
       :ui="{ title: 'font-display' }"
       class="">
-      <div class="w-full flex flex-col items-center gap-2 -mt-12">
-        <span class="text-gray-500 text-xs">Productivity</span>
+      <div class="-mt-12 flex w-full flex-col items-center gap-2">
+        <span class="text-xs text-gray-500">Productivity</span>
         <div class="flex flex-row flex-wrap justify-center gap-2">
           <UBadge
             variant="subtle"
@@ -397,8 +399,8 @@
             label="Contact Context" />
         </div>
       </div>
-      <div class="w-full flex flex-col items-center gap-2 -mt-12">
-        <span class="text-gray-500 text-xs">Teams and Groups</span>
+      <div class="-mt-12 flex w-full flex-col items-center gap-2">
+        <span class="text-xs text-gray-500">Teams and Groups</span>
         <div class="flex flex-row flex-wrap gap-2">
           <UBadge
             variant="subtle"
@@ -414,8 +416,8 @@
             label="Add Conversation Watchers" />
         </div>
       </div>
-      <div class="w-full flex flex-col items-center gap-2 -mt-12">
-        <span class="text-gray-500 text-xs">Email Sending & Receiving</span>
+      <div class="-mt-12 flex w-full flex-col items-center gap-2">
+        <span class="text-xs text-gray-500">Email Sending & Receiving</span>
         <div class="flex flex-row flex-wrap gap-2">
           <UBadge
             variant="subtle"
