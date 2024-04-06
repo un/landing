@@ -196,7 +196,7 @@
 
     links: [
       {
-        label: 'Join the beta now',
+        label: 'Join now',
         color: 'black',
         size: 'xl',
         trailingIcon: 'i-heroicons-rocket-launch',
