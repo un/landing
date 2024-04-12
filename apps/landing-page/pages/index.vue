@@ -310,16 +310,13 @@
 
       <div class="flex flex-col gap-2">
         <img
-          src="/images/screenshot.png?url"
+          src="/images/screen.png?url"
           class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
-        <span class="text-sm text-gray-500">
-          This is a development screenshot
-        </span>
         <NuxtLink
-          class="text-sm text-gray-500"
-          to="https://youtu.be/AWQdAKmNrR4"
+          class=" "
+          to="https://www.youtube.com/watch?v=hVeGNz7G4NI"
           target="_blank">
-          Click here to see a video
+          Click here to watch our launch video
         </NuxtLink>
       </div>
 
