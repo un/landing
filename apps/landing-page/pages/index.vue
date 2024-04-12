@@ -308,7 +308,7 @@
         </UBadge>
       </template>
       <UDashboardCard
-        title="Over 500 users"
+        title="Over 800 users"
         description="Hundreds of users are already using UnInbox. Join them today and claim your username!"
         icon="i-heroicons-chart-bar">
         <UProgress />
