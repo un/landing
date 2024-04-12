@@ -17,7 +17,7 @@
 
   const heroLinks = [
     {
-      label: 'Experience the new way to email',
+      label: 'Claim your username now!',
       icon: 'i-heroicons-rocket-launch',
       size: 'xl',
       click: () =>
@@ -25,15 +25,15 @@
           external: true,
           open: { target: '_blank' }
         })
-    },
-    {
-      label: 'Star us on GitHub',
-      'trailing-icon': 'i-simple-icons-github',
-      color: 'gray',
-      size: 'xl',
-
-      click: () => window.open('https://github.com/un/inbox', '_blank')
     }
+    // {
+    //   label: 'Star us on GitHub',
+    //   'trailing-icon': 'i-simple-icons-github',
+    //   color: 'gray',
+    //   size: 'xl',
+
+    //   click: () => window.open('https://github.com/un/inbox', '_blank')
+    // }
   ];
 
   const features = [
@@ -307,7 +307,12 @@
           100% Open Source
         </UBadge>
       </template>
-
+      <UDashboardCard
+        title="Over 500 users"
+        description="Hundreds of users are already using UnInbox. Join them today and claim your username!"
+        icon="i-heroicons-chart-bar">
+        <UProgress />
+      </UDashboardCard>
       <div class="flex flex-col gap-2">
         <img
           src="/images/screen.png?url"
