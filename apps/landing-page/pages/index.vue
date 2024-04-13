@@ -300,29 +300,53 @@
       :ui="{ title: 'font-display' }"
       :links="heroLinks">
       <template #headline>
-        <UBadge
-          variant="subtle"
-          size="lg"
-          class="relative rounded-full font-semibold">
-          100% Open Source
-        </UBadge>
+        <div class="flex flex-col items-center gap-4">
+          <NuxtLink
+            to="https://www.producthunt.com/posts/uninbox"
+            target="_blank">
+            <img
+              src="/images/ph-dark.svg"
+              class="h-16" />
+          </NuxtLink>
+
+          <div>
+            <UBadge
+              variant="subtle"
+              size="lg"
+              class="relative rounded-full font-semibold">
+              Open Source
+            </UBadge>
+          </div>
+        </div>
       </template>
-      <UDashboardCard
-        title="Over 800 users"
-        description="Hundreds of users are already using UnInbox. Join them today and claim your username!"
-        icon="i-heroicons-chart-bar">
-        <UProgress />
-      </UDashboardCard>
+      <div
+        class="grid grid-cols-1 grid-rows-2 gap-4 lg:grid-cols-2 lg:grid-rows-1">
+        <UDashboardCard
+          title="Used by over 1300 people"
+          description="Hundreds of users are already using UnInbox. Join them today and claim your username!"
+          icon="i-heroicons-chart-bar">
+        </UDashboardCard>
+        <UDashboardCard
+          title="Over 850 developers love us"
+          description="Hundreds of developers have starred and shared our open source project!"
+          icon="i-heroicons-star">
+        </UDashboardCard>
+      </div>
       <div class="flex flex-col gap-2">
-        <img
-          src="/images/screen.png?url"
-          class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
-        <NuxtLink
-          class=" "
-          to="https://www.youtube.com/watch?v=hVeGNz7G4NI"
-          target="_blank">
-          Click here to watch our launch video
-        </NuxtLink>
+        <div
+          class="grid grid-cols-1 grid-rows-2 items-center gap-4 lg:grid-cols-2 lg:grid-rows-1">
+          <NuxtLink
+            class=" "
+            to="https://www.youtube.com/watch?v=hVeGNz7G4NI"
+            target="_blank">
+            <img
+              src="/images/video-image.png"
+              class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
+          </NuxtLink>
+          <img
+            src="/images/screen.png?url"
+            class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
+        </div>
       </div>
 
       <!-- <ULandingLogos
