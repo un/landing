@@ -21,11 +21,12 @@
 </script>
 
 <template>
-  <div class="h-svh w-full font-sans">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-
+  <div class="h-full w-full font-sans">
+    <Header />
+    <UMain>
+      <slot />
+    </UMain>
+    <Footer />
     <UNotifications />
   </div>
 </template>

@@ -21,11 +21,11 @@
 </script>
 
 <template>
-  <div class="h-svh w-full font-sans">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-
+  <div class="bgoverlay h-full w-full overflow-hidden font-sans">
+    <PitchHeader />
+    <slot />
     <UNotifications />
   </div>
 </template>
+
+<style scoped></style>
