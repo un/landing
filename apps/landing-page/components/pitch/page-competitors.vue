@@ -2,8 +2,8 @@
 
 <template>
   <PitchMain>
-    <div class="flex h-full w-full flex-col items-center justify-center p-24">
-      <UCard class="h-0 max-h-full lg:h-fit">
+    <div class="mt-10 flex h-full w-full flex-col items-center">
+      <UCard class="hidden h-0 max-h-full lg:block lg:h-fit">
         <img
           src="/images/comp-dark.png?url"
           class="invisible h-0 rounded-md object-scale-down p-8 sm:max-w-screen-sm md:max-w-screen-md lg:invisible lg:max-w-screen-lg dark:h-full dark:lg:visible" />

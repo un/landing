@@ -3,9 +3,9 @@
 <template>
   <PitchMain>
     <div
-      class="flex h-full w-full flex-col items-center justify-start gap-12 py-12 lg:grid lg:grid-cols-1 lg:grid-rows-2 lg:justify-center lg:gap-0 lg:px-32">
+      class="flex w-full flex-col items-center justify-start gap-12 py-12 lg:grid lg:grid-cols-1 lg:grid-rows-2 lg:justify-center lg:gap-0 lg:px-20">
       <div
-        class="flex h-fit w-full flex-col items-center gap-2 px-4 pb-40 md:px-12 lg:h-full">
+        class="flex h-fit w-full flex-col items-center gap-2 px-4 md:px-12 lg:h-full">
         <span class="font-display text-center text-3xl">
           Email is the biggest business communication channel
         </span>

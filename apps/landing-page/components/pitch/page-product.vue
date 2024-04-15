@@ -5,7 +5,7 @@
     <div
       class="flex h-full w-full grid-rows-2 flex-col items-center justify-start lg:justify-center">
       <div
-        class="flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll p-2 py-4 md:px-12 lg:justify-center">
+        class="flex h-full w-full flex-col items-center justify-start gap-8 p-2 py-4 md:px-12 lg:mt-20">
         <span class="font-display text-3xl"> UnInbox </span>
         <div
           class="flex w-full flex-col items-center gap-4 p-8 lg:grid lg:grid-cols-3">

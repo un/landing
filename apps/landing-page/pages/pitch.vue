@@ -116,7 +116,8 @@
             {{ item.title }}
           </span>
         </div>
-        <div class="h-[75vh] w-full overflow-scroll md:h-[90vh]">
+        <div
+          class="h-[78vh] w-full overflow-scroll pb-[100px] lg:h-[calc(100vh-60px)]">
           <PitchPageTitle v-if="index === 0" />
           <PitchPageProblem v-if="index === 1" />
           <PitchPageRealize v-if="index === 2" />
