@@ -5,9 +5,9 @@
     <div
       class="grid h-full w-full grid-cols-1 grid-rows-1 items-center justify-center">
       <div
-        class="flex h-full w-full flex-col items-center justify-center gap-8 px-8 md:px-12 lg:pt-12">
+        class="flex h-full w-full flex-col items-center justify-center gap-8 px-2 md:px-12 lg:pt-12 xl:px-32">
         <div
-          class="grid h-full w-full grid-cols-1 items-center gap-4 p-8 pt-32 lg:grid-cols-2 lg:grid-rows-2">
+          class="grid h-full w-full grid-cols-1 items-center gap-4 p-8 lg:grid-cols-2 lg:grid-rows-2">
           <ULandingCard
             color="primary"
             :ui="{

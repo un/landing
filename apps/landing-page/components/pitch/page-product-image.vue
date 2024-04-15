@@ -2,7 +2,7 @@
 
 <template>
   <PitchMain>
-    <div class="flex h-full w-full flex-col items-center justify-center p-24">
+    <div class="flex h-full w-full flex-col items-center py-8">
       <UCard
         class="invisible flex h-0 max-h-full flex-col items-center justify-center gap-2 lg:visible lg:h-fit">
         <div class="flex max-h-full flex-col items-center justify-center gap-4">

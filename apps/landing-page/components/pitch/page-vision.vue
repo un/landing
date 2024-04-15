@@ -4,8 +4,7 @@
   <PitchMain>
     <div
       class="flex h-full w-full grid-rows-2 flex-col items-center justify-center">
-      <div
-        class="flex flex-col items-start justify-center gap-12 px-20 pt-24 md:px-12">
+      <div class="flex flex-col items-start gap-12 px-8 md:px-12">
         <div class="font-display text-3xl">UnWorkspace.com</div>
         <div class="flex flex-col gap-2">
           <span class="max-w-prose text-2xl">

@@ -94,25 +94,29 @@
 </script>
 
 <template>
-  <div class="h-full w-full">
+  <div class="bg-sand-1 h-full w-full">
     <UCarousel
       v-slot="{ item, index }"
       ref="caro"
       :items="items"
       :ui="{ item: 'basis-full', container: 'h-full lqala', wrapper: 'h-full' }"
-      class=""
-      arrows>
-      <div class="h-full w-full flex-col gap-0 p-0">
+      class="">
+      <div class="bg-sand-1 h-full w-full flex-col gap-0 overflow-hidden p-0">
         <div
-          class="bg-sand-2 absolute top-0 z-10 flex w-full flex-col items-center justify-center gap-0 p-4">
-          <span class="text-sand-11 text-lg font-medium leading-none">
+          v-if="item.title || item.tagline"
+          class="bg-sand-2 top-0 z-10 flex w-full flex-col items-center justify-center gap-0 p-4">
+          <span
+            v-if="item.tagline"
+            class="text-sand-11 text-lg font-medium leading-none">
             {{ item.tagline }}
           </span>
-          <span class="font-display text-sand-12 text-4xl leading-none">
+          <span
+            v-if="item.title"
+            class="font-display text-sand-12 mt-3 text-center text-2xl leading-none lg:text-4xl">
             {{ item.title }}
           </span>
         </div>
-        <div class="h-full w-full overflow-hidden">
+        <div class="h-[75vh] w-full overflow-scroll md:h-[90vh]">
           <PitchPageTitle v-if="index === 0" />
           <PitchPageProblem v-if="index === 1" />
           <PitchPageRealize v-if="index === 2" />

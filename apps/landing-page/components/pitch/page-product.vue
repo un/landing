@@ -5,10 +5,10 @@
     <div
       class="flex h-full w-full grid-rows-2 flex-col items-center justify-start lg:justify-center">
       <div
-        class="mt-32 flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll px-8 py-32 pt-12 md:px-12 lg:justify-center">
+        class="flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll p-2 py-4 md:px-12 lg:justify-center">
         <span class="font-display text-3xl"> UnInbox </span>
         <div
-          class="flex w-full flex-col items-center gap-4 p-8 pb-32 lg:grid lg:grid-cols-3">
+          class="flex w-full flex-col items-center gap-4 p-8 lg:grid lg:grid-cols-3">
           <ULandingCard
             color="primary"
             :ui="{

@@ -5,7 +5,7 @@
     <div
       class="flex h-full w-full grid-rows-2 flex-col items-center justify-start lg:justify-center">
       <div
-        class="mt-32 flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll px-8 py-32 pt-12 md:px-20 lg:justify-center">
+        class="flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll px-8 pb-32 pt-12 md:px-20 lg:justify-center lg:pb-20">
         <div
           class="flex h-fit w-full flex-col items-center justify-center gap-12 px-8 lg:grid lg:grid-cols-3 lg:gap-4">
           <div class="flex h-full w-full flex-col gap-4">
@@ -56,7 +56,7 @@
               </div>
             </ULandingCard>
           </div>
-          <div class="flex h-full w-full flex-col gap-2 pb-32">
+          <div class="flex h-full w-full flex-col gap-2">
             <ULandingCard
               color="primary"
               :ui="{
