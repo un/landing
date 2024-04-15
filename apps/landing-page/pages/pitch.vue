@@ -150,14 +150,6 @@
             >
           </div>
         </UButton>
-
-        <UTooltip text="Back to top">
-          <UButton
-            square
-            icon="i-ph-share-network"
-            size="md"
-            color="gray" />
-        </UTooltip>
         <UTooltip text="Video">
           <UButton
             square
