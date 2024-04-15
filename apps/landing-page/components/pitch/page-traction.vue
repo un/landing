@@ -31,7 +31,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-ph-users-three" />
-              <span class="font-display text-5xl">1450</span>
+              <span class="font-display text-5xl">1650</span>
               <span class="text-xl">Users</span>
             </div>
           </ULandingCard>
@@ -46,7 +46,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-simple-icons-github" />
-              <span class="font-display text-5xl">927</span>
+              <span class="font-display text-5xl">970</span>
               <span class="text-xl">Github Stars</span>
             </div>
           </ULandingCard>
@@ -61,7 +61,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-ph-envelope" />
-              <span class="font-display text-5xl">2000</span>
+              <span class="font-display text-5xl">2400</span>
               <span class="text-xl">Messages handled</span>
             </div>
           </ULandingCard>
@@ -76,7 +76,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-simple-icons-discord" />
-              <span class="font-display text-5xl">400</span>
+              <span class="font-display text-5xl">380</span>
               <span class="text-xl">Community Members</span>
             </div>
           </ULandingCard>
@@ -85,7 +85,7 @@
           <span class="text-xl font-medium">Hardlaunch: 12th April 2024</span>
           <span class="text-xl">Softlaunch: 5th April 2024</span>
           <span class="text-sand-11 text-sm"
-            >Last Updated: 04/15/24 @ 07:30pm UTC</span
+            >Last Updated: 04/16/24 @ 00:55am UTC</span
           >
         </div>
       </div>
