@@ -59,9 +59,9 @@
 <template>
   <PitchMain>
     <div
-      class="flex h-full w-full grid-rows-2 flex-col items-center justify-start bg-black lg:justify-center">
+      class="bg-sand-1 flex h-full w-full grid-rows-2 flex-col items-center justify-start lg:justify-center">
       <div
-        class="mt-32 flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll px-8 py-32 pt-12 md:px-12 lg:justify-center">
+        class="flex h-full w-full flex-col items-center justify-start gap-8 overflow-scroll px-8 pb-20 pt-8 md:px-12 lg:justify-center lg:pt-32">
         <div
           id="my-cal-inline"
           class="h-full w-full overflow-auto" />

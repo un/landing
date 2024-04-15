@@ -5,10 +5,10 @@
     <div
       class="flex h-full w-full grid-rows-2 flex-col items-center justify-start lg:justify-center">
       <div
-        class="mt-32 flex h-full w-full flex-col items-center justify-start gap-12 overflow-scroll px-8 py-32 pt-12 md:px-12 lg:justify-center">
+        class="flex h-full w-full flex-col items-center justify-start gap-12 overflow-scroll px-8 py-32 pt-12 md:px-12 lg:justify-center">
         <div class="font-display text-3xl">Build differentiators</div>
         <div
-          class="flex h-fit w-full flex-col items-center justify-center gap-4 px-8 pb-32 lg:grid lg:h-full lg:grid-cols-2">
+          class="flex h-fit w-full flex-col items-center justify-center gap-12 pb-32 lg:grid lg:h-full lg:grid-cols-2 lg:px-32">
           <div
             class="flex h-full w-full flex-col items-start gap-2 lg:items-end">
             <div>
