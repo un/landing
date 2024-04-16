@@ -136,9 +136,9 @@
       </div>
     </UCarousel>
     <div
-      class="fixed bottom-4 flex w-full flex-row items-center justify-center">
+      class="fixed bottom-8 flex w-full flex-row items-center justify-center">
       <div
-        class="bg-sand-3 ring-sand-7 flex flex-row gap-4 rounded-full p-2 ring-1">
+        class="bg-sand-12 ring-sand-7 flex flex-row gap-4 rounded-full p-2 ring-1">
         <UButton
           square
           size="md"
@@ -150,6 +150,32 @@
             >
           </div>
         </UButton>
+        <UTooltip text="App">
+          <UButton
+            square
+            icon="i-ph-device-mobile"
+            size="md"
+            color="gray"
+            @click="
+              navigateTo('https://uninbox.com', {
+                external: true,
+                open: { target: '_blank' }
+              })
+            " />
+        </UTooltip>
+        <UTooltip text="Github">
+          <UButton
+            square
+            icon="i-simple-icons-github"
+            size="md"
+            color="gray"
+            @click="
+              navigateTo('https://git.new/un', {
+                external: true,
+                open: { target: '_blank' }
+              })
+            " />
+        </UTooltip>
         <UTooltip text="Video">
           <UButton
             square
