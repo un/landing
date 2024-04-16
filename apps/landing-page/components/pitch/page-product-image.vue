@@ -4,7 +4,7 @@
   <PitchMain>
     <div class="flex h-full w-full flex-col items-center py-8">
       <UCard
-        class="invisible flex h-0 max-h-full flex-col items-center justify-center gap-2 lg:visible lg:h-fit">
+        class="invisible flex h-0 max-h-full flex-col items-center justify-center gap-2 md:visible lg:h-fit">
         <div class="flex max-h-full flex-col items-center justify-center gap-4">
           <img
             src="/images/screen.png?url"
@@ -21,7 +21,7 @@
           </span>
         </div>
       </UCard>
-      <UCard class="visible h-fit max-h-full lg:invisible lg:h-0">
+      <UCard class="visible h-fit max-h-full md:invisible lg:h-0">
         <div class="lala flex flex-col items-center justify-center gap-4">
           <UIcon
             class="text-sand-12 text-6xl"
