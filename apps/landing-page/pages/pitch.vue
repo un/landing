@@ -25,7 +25,7 @@
       tagline: 'The Problem'
     },
     {
-      title: 'Business communication need have changed',
+      title: 'Business communication needs have changed',
       tagline: 'What we realized'
     },
     {
