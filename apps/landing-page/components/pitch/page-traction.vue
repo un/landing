@@ -61,7 +61,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-ph-envelope" />
-              <span class="font-display text-5xl">2400</span>
+              <span class="font-display text-5xl">2500</span>
               <span class="text-xl">Messages handled</span>
             </div>
           </ULandingCard>
@@ -85,7 +85,7 @@
           <span class="text-xl font-medium">Hardlaunch: 12th April 2024</span>
           <span class="text-xl">Softlaunch: 5th April 2024</span>
           <span class="text-sand-11 text-sm"
-            >Last Updated: 04/16/24 @ 01:00pm UTC</span
+            >Last Updated: 04/16/24 @ 06:00pm UTC</span
           >
         </div>
       </div>

@@ -322,7 +322,7 @@
       <div
         class="grid grid-cols-1 grid-rows-2 gap-4 lg:grid-cols-2 lg:grid-rows-1">
         <UDashboardCard
-          title="Used by over 1450 people"
+          title="Used by more than 1700 people"
           description="Hundreds of users are already using UnInbox. Join them today and claim your username!"
           icon="i-heroicons-chart-bar">
         </UDashboardCard>
