@@ -3,15 +3,17 @@
     layout: 'pitch'
   });
   useSeoMeta({
-    title: 'UnInbox',
+    title:
+      'UnInbox - Modern email for teams and professionals. 100% Open Source.',
     ogSiteName: 'UnInbox',
-    ogDescription: 'Open source: Modern email for teams and professionals',
+    ogDescription:
+      'Modern email for teams and professionals. 100% Open Source.',
     twitterCard: 'summary_large_image'
   });
 
   defineOgImageComponent('Landing', {
     title: 'UnInbox',
-    description: 'Open source: Modern email for teams and professionals'
+    description: 'Modern email for teams and professionals. 100% Open Source.'
   });
 
   const items = [

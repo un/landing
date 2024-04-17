@@ -17,14 +17,21 @@
 
 <template>
   <div
-    class="w-full h-full flex flex-col justify-center text-center bg-zinc-900 p-8">
+    class="ogbg flex h-full w-full flex-col items-start justify-center p-8 text-center">
     <div class="relative">
-      <h1 class="text-8xl mb-4 text-white">
+      <h1 class="mb-4 text-8xl text-white">
         {{ title }}
       </h1>
-      <p class="text-5xl text-gray-200 leading-tight">
+      <p class="text-left text-5xl leading-tight text-gray-200">
         {{ description }}
       </p>
     </div>
   </div>
 </template>
+<style scoped>
+  .ogbg {
+    background-image: url('/images/og.png');
+    background-size: cover;
+    background-position: center;
+  }
+</style>
