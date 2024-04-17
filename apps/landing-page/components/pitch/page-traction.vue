@@ -31,7 +31,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-ph-users-three" />
-              <span class="font-display text-5xl">1700</span>
+              <span class="font-display text-5xl">1800</span>
               <span class="text-xl">Users</span>
             </div>
           </ULandingCard>
@@ -46,7 +46,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-simple-icons-github" />
-              <span class="font-display text-5xl">980</span>
+              <span class="font-display text-5xl">1000</span>
               <span class="text-xl">Github Stars</span>
             </div>
           </ULandingCard>
@@ -61,7 +61,7 @@
               <UIcon
                 class="font-display text-5xl"
                 name="i-ph-envelope" />
-              <span class="font-display text-5xl">2500</span>
+              <span class="font-display text-5xl">2700</span>
               <span class="text-xl">Messages handled</span>
             </div>
           </ULandingCard>

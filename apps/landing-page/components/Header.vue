@@ -56,11 +56,6 @@
   <UHeader :links="links">
     <template #logo>
       <span class="font-display"> UnInbox </span>
-      <UBadge
-        label="Launched 🚀"
-        icon="i-heroicons-rocket-launch"
-        color="yellow"
-        class="mb-0.5" />
     </template>
 
     <template #right>
