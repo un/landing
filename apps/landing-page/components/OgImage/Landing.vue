@@ -30,7 +30,7 @@
 </template>
 <style scoped>
   .ogbg {
-    background-image: url('/images/og.png');
+    background-image: url('/images/og.jpg');
     background-size: cover;
     background-position: center;
   }
