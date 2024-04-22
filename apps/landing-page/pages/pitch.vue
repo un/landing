@@ -23,10 +23,10 @@
       title: 'Business email is a chaotic experience',
       tagline: 'The Problem'
     },
-    {
-      title: 'Business communication needs have changed',
-      tagline: 'What we realized'
-    },
+    // {
+    //   title: 'Business communication needs have changed',
+    //   tagline: 'What we realized'
+    // },
     {
       title: 'Modern email for teams & professionals',
       tagline: 'The Solution'
@@ -119,18 +119,18 @@
           class="h-[78vh] w-full overflow-scroll pb-[100px] lg:h-[calc(100vh-60px)]">
           <PitchPageTitle v-if="index === 0" />
           <PitchPageProblem v-if="index === 1" />
-          <PitchPageRealize v-if="index === 2" />
-          <PitchPageSolution v-if="index === 3" />
-          <PitchPageProductImage v-if="index === 4" />
-          <PitchPageProduct v-if="index === 5" />
-          <PitchPageTraction v-if="index === 6" />
-          <PitchPageBusiness v-if="index === 7" />
-          <PitchPageCompetitors v-if="index === 8" />
-          <PitchPageFocusNow v-if="index === 9" />
-          <PitchPageFocusNext v-if="index === 10" />
-          <PitchPageVision v-if="index === 11" />
-          <PitchPageTeam v-if="index === 12" />
-          <PitchPageCall v-if="index === 13" />
+          <!-- <PitchPageRealize v-if="index === 2" /> -->
+          <PitchPageSolution v-if="index === 2" />
+          <PitchPageProductImage v-if="index === 3" />
+          <PitchPageProduct v-if="index === 4" />
+          <PitchPageTraction v-if="index === 5" />
+          <PitchPageBusiness v-if="index === 6" />
+          <PitchPageCompetitors v-if="index === 7" />
+          <PitchPageFocusNow v-if="index === 8" />
+          <PitchPageFocusNext v-if="index === 9" />
+          <PitchPageVision v-if="index === 10" />
+          <PitchPageTeam v-if="index === 11" />
+          <PitchPageCall v-if="index === 12" />
         </div>
       </div>
     </UCarousel>
