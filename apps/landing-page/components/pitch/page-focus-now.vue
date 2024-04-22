@@ -31,7 +31,9 @@
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4">
                 <span class="text-xl"> Send and receive emails</span>
                 <span class="text-xl"> Custom Domains </span>
-                <span class="text-xl"> User Groups </span>
+                <span class="text-xl">
+                  Add internal comments to conversations
+                </span>
                 <span class="text-xl">
                   Route email to multiple participants
                 </span>
@@ -55,10 +57,16 @@
               }">
               <div
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4">
-                <span class="text-xl"> Advanced Routing</span>
-                <span class="text-xl"> Conversation Statuses </span>
-                <span class="text-xl"> Convo Assignment </span>
-                <span class="text-xl"> Newsletter/Product Update Feed </span>
+                <span class="text-xl">
+                  "Productivity Tool" like experience
+                </span>
+                <span class="text-xl">
+                  "Spaces" for Convo Statuses, Assignees, Labels
+                </span>
+                <span class="text-xl"> Additional mail routing options </span>
+                <span class="text-xl">
+                  More email filtering options(newsletters etc.)
+                </span>
               </div>
             </ULandingCard>
           </div>

@@ -45,7 +45,7 @@
                 Freemium tier and charge per seat
               </span>
               <span class="font-display text-center text-2xl">
-                for advanced features
+                for business/advanced features
               </span>
             </div>
           </ULandingCard>

@@ -5,13 +5,14 @@
   useSeoMeta({
     title: 'UnInbox',
     ogSiteName: 'UnInbox',
-    ogDescription: 'Open source: Modern email for teams and professionals',
+    ogDescription: 'The open source modern email for teams and professionals',
     twitterCard: 'summary_large_image'
   });
 
   defineOgImageComponent('Landing', {
-    title: 'UnInbox',
-    description: 'Open source: Modern email for teams and professionals'
+    title: 'UnPitch',
+    description:
+      'UnInbox - the open source modern email for teams and professionals'
   });
 
   const items = [

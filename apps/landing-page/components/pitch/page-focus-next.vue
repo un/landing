@@ -27,9 +27,11 @@
               }">
               <div
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4 lg:items-end">
+                <span class="text-xl">
+                  Full productivity tool like experience
+                </span>
                 <span class="text-xl"> Routing rules & Automations</span>
-                <span class="text-xl"> API / SDK </span>
-                <span class="text-xl"> Integrations </span>
+                <span class="text-xl"> Integrations, API / SDK </span>
                 <span class="text-xl"> SOC2, HIPAA, ISO </span>
               </div>
             </ULandingCard>
@@ -52,13 +54,13 @@
               <div
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4">
                 <span class="text-xl">
-                  Workflows (round-robin, keyword, SLA)</span
-                >
-                <span class="text-xl">
-                  Send transactional/marketing emails
+                  Enables business communication workflows
                 </span>
                 <span class="text-xl">
-                  Send inbound emails to app/webhook
+                  Route/handle based on round-robin, keyword, SLA
+                </span>
+                <span class="text-xl">
+                  Send transactional/marketing emails
                 </span>
                 <span class="text-xl"> Compliance </span>
               </div>

@@ -7,7 +7,7 @@
       <div
         class="flex h-fit w-full flex-col items-center gap-2 px-4 md:px-12 lg:h-full">
         <span class="font-display text-center text-3xl">
-          Email is the biggest business communication channel
+          It's the biggest business communication channel
         </span>
         <div
           class="grid w-full grid-cols-1 grid-rows-3 items-center gap-4 p-8 lg:grid-cols-3 lg:grid-rows-1">
@@ -88,11 +88,9 @@
               class="flex h-full w-full flex-col items-center justify-center gap-4 pb-8 pt-4">
               <UIcon
                 class="font-display text-3xl"
-                name="i-ph-link-break" />
-              <span class="font-display text-center text-2xl"
-                >Limited Flexibility</span
-              >
-              <span class="text-xl">old standards</span>
+                name="i-ph-wall" />
+              <span class="font-display text-2xl">Workflows Unsupported</span>
+              <span class="text-xl"> rigid medium </span>
             </div>
           </ULandingCard>
           <ULandingCard
@@ -105,9 +103,11 @@
               class="flex h-full w-full flex-col items-center justify-center gap-4 pb-8 pt-4">
               <UIcon
                 class="font-display text-3xl"
-                name="i-ph-megaphone" />
-              <span class="font-display text-2xl">Too Much Noise</span>
-              <span class="text-xl">miss important emails</span>
+                name="i-ph-link-break" />
+              <span class="font-display text-center text-2xl"
+                >Limited Flexibility</span
+              >
+              <span class="text-xl">old standards</span>
             </div>
           </ULandingCard>
         </div>
