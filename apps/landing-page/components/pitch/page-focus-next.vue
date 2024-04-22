@@ -28,7 +28,7 @@
               <div
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4 lg:items-end">
                 <span class="text-xl">
-                  Full productivity tool like experience
+                  Full productivity tool like experience + LLM
                 </span>
                 <span class="text-xl"> Routing rules & Automations</span>
                 <span class="text-xl"> Integrations, API / SDK </span>
@@ -54,7 +54,7 @@
               <div
                 class="flex h-full w-full flex-col items-start justify-center gap-4 pb-8 pt-4">
                 <span class="text-xl">
-                  Enables business communication workflows
+                  Enables business communication workflows with AI
                 </span>
                 <span class="text-xl">
                   Route/handle based on round-robin, keyword, SLA
